@@ -1,0 +1,349 @@
+Start build: 2024-09-02T19:23:49
+Hammer: Attempting incremental build.
+Hammer: Previous build not found. Performing full build.
+Using breakpad crash handler Setting breakpad minidump AppID = 730 Forcing breakpad minidump interfaces to load Looking up breakpad interfaces from steamclient Calling BreakpadMiniDumpSystemInit Looking up breakpad interfaces from steamclient Calling BreakpadMiniDumpSystemInit SteamInternal_SetMinidumpSteamID: Caching Steam ID: 76561198142181*** [API loaded yes] SteamInternal_SetMinidumpSteamID: Setting Steam ID: 76561198142181*** Setting breakpad minidump AppID = 2347*** Creating device for graphics adapter 0 'AMD Radeon RX 7800 XT' [vendorid 0x1002]: 31.0.24002.92
+Failed to create D3D11 compute shader "cull_aggregate_fragments.vfx_cs"! hr=80070057
+Failed to create D3D11 compute shader "cull_aggregate_fragments.vfx_cs"! hr=80070057
+Failed to create D3D11 compute shader "cull_aggregate_fragments.vfx_cs"! hr=80070057
+Failed to create D3D11 compute shader "cull_aggregate_fragments.vfx_cs"! hr=80070057
+Failed to create D3D11 compute shader "cull_aggregate_fragments.vfx_cs"! hr=80070057
+Failed to create D3D11 compute shader "cull_aggregate_fragments.vfx_cs"! hr=80070057
+Failed to create D3D11 compute shader "cull_aggregate_fragments.vfx_cs"! hr=80070057
+Failed to create D3D11 compute shader "cull_aggregate_fragments.vfx_cs"! hr=80070057
+Failed to create D3D11 compute shader "cull_aggregate_fragments.vfx_cs"! hr=80070057
+Failed to create D3D11 compute shader "cull_aggregate_fragments.vfx_cs"! hr=80070057
+Failed to create D3D11 compute shader "cull_aggregate_fragments.vfx_cs"! hr=80070057
+Failed to create D3D11 compute shader "cull_aggregate_fragments.vfx_cs"! hr=80070057
+Failed to create D3D11 compute shader "cull_aggregate_fragments.vfx_cs"! hr=80070057
+Failed to create D3D11 compute shader "cull_aggregate_fragments.vfx_cs"! hr=80070057
+Failed to create D3D11 compute shader "cull_aggregate_fragments.vfx_cs"! hr=80070057
+Failed to create D3D11 compute shader "cull_aggregate_fragments.vfx_cs"! hr=80070057
+Operator Error: Event (null): CSosOperatorSpeakers
+Error: Operator volume_fan_mult, unknown sound operator attribute __move_to_end
+Error: Operator volume_fan_mult, unknown sound operator attribute __move_to_end
+Operator Error: Event (null): CSosOperatorSpeakers
+Error: Operator volume_fan_scale, unknown sound operator attribute __move_to_end
+Error: Operator volume_fan_scale, unknown sound operator attribute __move_to_end
+- csgo_addons\am_dahdust_cs2\maps\am_dahdust_cs2.vmap
+Initialized Embree v2.17.07.
+Settling physics objects...no objects to settle
+Preprocessing Lights [0....1....2....3....4....5....6....7....8....9....] Done (0.00 seconds)
+Assigned 1 Light Shadow Slots, 0 failed (max slot 0).
+Building map "maps\am_dahdust_cs2"...
+
+
+... Building 'world'
+Loading Map...
++- csgo_addons\am_dahdust_cs2\maps\am_dahdust_cs2\entities\unnamed_33.vmdl
++- csgo_addons\am_dahdust_cs2\maps\am_dahdust_cs2\entities\unnamed_34.vmdl
++- csgo_addons\am_dahdust_cs2\maps\am_dahdust_cs2\entities\unnamed_67.vmdl
++- csgo_addons\am_dahdust_cs2\maps\am_dahdust_cs2\entities\unnamed_70.vmdl
++- csgo_addons\am_dahdust_cs2\maps\am_dahdust_cs2\entities\unnamed_87.vmdl
+Done (0.05 seconds) 
+Building ray trace environment...
+Wrote C:\Users\Alex\AppData\Local\Temp\csgo_addons\am_dahdust_cs2\maps\am_dahdust_cs2.rte
+Wrote C:\Users\Alex\AppData\Local\Temp\csgo_addons\am_dahdust_cs2\maps\am_dahdust_cs2.viscfg
+Done (0.01 seconds) 
++- csgo_addons\am_dahdust_cs2\maps\am_dahdust_cs2\world_visibility.vvis
+Building map visibility
+
+Loading kd-trees
+Successfully read C:\Users\Alex\AppData\Local\Temp\csgo_addons\am_dahdust_cs2\maps\am_dahdust_cs2.rte
+Successfully unserialized ray tracing environment.
+Convert RTE with 80 triangles in 0.00s
+Loaded 0 LOS hints from c:\program files (x86)\steam\steamapps\common\counter-strike global offensive\game\csgo_addons\am_dahdust_cs2\maps\am_dahdust_cs2.los! (0.0 seconds)
+Loaded 0 LOS hints from c:\program files (x86)\steam\steamapps\common\counter-strike global offensive\content\csgo_addons\am_dahdust_cs2\maps\am_dahdust_cs2.los! (0.0 seconds)
+VIS3: Build partitioned PVS!
+Voxelize (8 units) took 0.18 seconds (17,217 nodes)
+Outside detection took 0.08 seconds
+Generated clusters for 6679 regions in 3.18 seconds
+34858 clusters generated
+Distance merged regions (2703 merged to 2547)
+pre-merged to 34702 clusters
+Merged to 364 clusters in first pass
+Merged to 340 clusters in second pass
+Merged cluster lists in 3.97 seconds [340 clusters]
+Compacted to 26329 regions (340 clusters) in 0.00 seconds [target 862 clusters]
+Assigned 340 clusters in 0.00 seconds
+559 KB bytes tree size
+Sample vis for 340 clusters
+Creating thread pool with 15 threads
+CLOSRayGenerator rays complete.
+CLOSRayGenerator rays complete.
+AxialRays rays complete.
+AxialRays rays complete.
+AxialRays rays complete.
+ClusterView rays complete.
+1.0s::Finished 14,599 valid LOS
+Main thread clear batches.
+Traced 21,299,200 rays in 1.281 seconds [16,623,636 rays per second]
+3.496 cpu s cast, 11.487 cpu s rasterize
+Target 864 clusters, clamped to 862, grid size 8.0
+Built 340 clusters in 0.0s
+340 clusters, 1 steps
+Merge vis clusters:0...1...2...3...4...5...6...7...8...9...10
+Merged to 342 clusters in 0.0s (0.0s recompute, 0 passes)
+0.0s total merge time
+Adaptive border clusters (0s)
+Initial regions 26329, collapsed to 12786
+733 unique masks (of 12,786 regions)
+Compute enclosed cluster lists
+1544 cluster lists, 9299 elements (0.00445s) (1 zeros)
+Computed 339 clusters visible to sky
+Skipping solid voxels in sunlight visibility
+Raytraced sun visibility in 20.391ms (217 visible clusters)
+Wrote 14599 LOS hints for next time c:\program files (x86)\steam\steamapps\common\counter-strike global offensive\game\csgo_addons\am_dahdust_cs2\maps\am_dahdust_cs2.los!
+Wrote vis resource 292.40 KB bytes
+Visibility complete in 8.99s.
+Collecting Mesh Edges [] Done (0.00 seconds)
+Fixing T-junction Edge Cracks [] Done (0.00 seconds)
+
+Bake Lighting
+Build: pc64 Aug 13 2024 15:17:05
+Preprocessing 15 meshes and computing charts [] Done (0.00 seconds)
+Packing 70 UV charts onto atlas...
+Pass 1 of 7 ->[] Done (0.01 seconds) - (0.595995)
+Pass 2 of 7 ->[] Done (0.01 seconds) + (0.297998)
+Pass 3 of 7 ->[] Done (0.01 seconds) - (0.446996)
+Pass 4 of 7 ->[] Done (0.01 seconds) - (0.372497)
+Pass 5 of 7 ->[] Done (0.01 seconds) + (0.335247)
+Pass 6 of 7 ->[] Done (0.01 seconds) + (0.353872)
+Pass 7 of 7 ->[] Done (0.01 seconds) + (0.363185)
+Mesh with material materials/dev/reflectivity_30.vmat is extremely large in lightmap (7.0%), 444x165
+World Bounds -256.000000,960.000000,0.000000 -> 1280.000000,1408.000000,288.000000
+Mesh with material materials/dev/reflectivity_30.vmat is extremely large in lightmap (1.4%), 560x26
+World Bounds -256.000061,-976.000000,0.000000 -> 1280.000000,960.000000,64.000000
+LPV Atlas Size: 36x44x16 Size Increase: 163.34%
+==== Baking 1024 x 1024 lightmap ====
+SetupTexels [0....1....2....3....4....5....6....7....8....9....] Done (0.01 seconds)
+VRAD3-GPU VRAD3 - Distributed Lighting Tool
+Copyright (c) Valve Corporation, All rights reserved.
+Build: pc64 Aug 13 2024 15:13:20
+WD: c:\program files (x86)\steam\steamapps\common\counter-strike global offensive\game\csgo_addons\am_dahdust_cs2\_vrad3
+Command: vrad3.exe -map maps/am_dahdust_cs2.vmap -script script-gpu.vrad3 -vulkan -gpuraytracing -allthreads -unbufferedio -noassert 
+Fossilize ERROR: Failed to parse ApplicationInfoFilter, letting recording go through.
+VK_EXT_extended_dynamic_state_2 does not support extendedDynamicState2PatchControlPoints, disabling.
+Fossilize INFO: Overriding serialization path: "C:\Program Files (x86)\Steam\steamapps\shadercache\730\fozpipelinesv6\steamapprun_pipeline_cache".
+Unable to open Vulkan pipeline cache shadercache\vulkan\shaders.cache file - might not exist yet.
+Num Threads: 16
+Loading 3 resources... Done (0.01 seconds)
+Creating VB/IB/BLAS for 15 meshes... Done (0.02 seconds)
+Creating ray trace scene world with 15 instances... Done (0.00 seconds)
+Loading lightmap_packing_geometry.dat... Done (0.01 seconds)
+Compute block 0 on GPU... Done (0.30 seconds)
+Compute block 1 on GPU... Done (0.65 seconds)
+Compute block 2 on GPU... Done (0.17 seconds)
+Compute block 3 on GPU... Done (0.28 seconds)
+Lightmapping took 1.53 seconds
+Dilating lighting over 596 invalid luxels...
+...Dilated 594 luxels, 2 remain.
+Dilating baked shadows over 24128 invalid luxels...
+Dilating baked shadows over 24128 invalid luxels...
+Dilating baked shadows over 24128 invalid luxels...
+Writing normal.exr... (0.0s).
+Writing tangent.exr... (0.0s).
+Writing sh_irradiance_noisy.exr... (0.0s).
+Writing lightmap_noisy.exr... (0.0s).
+Writing ao_noisy.exr... (0.0s).
+Writing direct_light_shadows_noisy.exr... (0.0s).
+Removing fireflies... found 414 fireflies in 0.0s
+Wrote fireflies.exr
+Available OIDN devices:
+AMD Radeon RX 7800 XT
+AMD Ryzen 7 5700X3D 8-Core Processor 
+OIDN selecting device: AMD Radeon RX 7800 XT
+Created OIDN device of type: OIDN_DEVICE_TYPE_HIP
+OIDN Filter (lg) ao [0....1....2....3....4....5....6....7....8....9....] Done (0.48 seconds)
+OIDN Filter (lg) irradiance [0....1....2....3....4....5....6....7....8....9....] Done (0.07 seconds)
+OIDN Filter (lg) sh radiance L0 [0....1....2....3....4....5....6....7....8....9....] Done (0.07 seconds)
+OIDN Filter (lg) sh radiance c1 [0....1....2....3....4....5....6....7....8....9....] Done (0.07 seconds)
+OIDN Filter (lg) sh radiance c2 [0....1....2....3....4....5....6....7....8....9....] Done (0.07 seconds)
+OIDN Filter (lg) sh radiance c3 [0....1....2....3....4....5....6....7....8....9....] Done (0.06 seconds)
+OIDN Filter (lg) sh radiance c4 [0....1....2....3....4....5....6....7....8....9....] Done (0.07 seconds)
+OIDN Filter (lg) sh radiance c5 [0....1....2....3....4....5....6....7....8....9....] Done (0.07 seconds)
+OIDN Filter (lg) sh radiance c6 [0....1....2....3....4....5....6....7....8....9....] Done (0.07 seconds)
+OIDN Filter (lg) sh radiance c7 [0....1....2....3....4....5....6....7....8....9....] Done (0.07 seconds)
+OIDN Filter (lg) sh radiance c8 [0....1....2....3....4....5....6....7....8....9....] Done (0.07 seconds)
+Writing direct_light_shadows.exr... (0.0s).
+Writing lightmap.exr... (0.0s).
+Writing ao.exr... (0.0s).
+Writing shradiance_dclinear_r.exr... (0.0s).
+Writing shradiance_dclinear_g.exr... (0.0s).
+Writing shradiance_dclinear_b.exr... (0.0s).
+Writing shradiance_f4quadratic_r.exr... (0.0s).
+Writing shradiance_f4quadratic_g.exr... (0.0s).
+Writing shradiance_f4quadratic_b.exr... (0.0s).
+Writing shradiance_lastquadratic.exr... (0.0s).
+Writing sh_irradiance.exr... (0.0s).
+Writing confidence.exr... (0.0s).
+Writing lightmap_chart_color.exr... (0.0s).
+Wrote lpv_775693822_ambientcube_noisy.exr (192x294x1).
+Wrote lpv_775693822_ambientcube.exr (192x294x1).
+Wrote lpv_775693822_dlshd.exr (192x294x1).
+Wrote lpv_775693823_ambientcube_noisy.exr (156x70x1).
+Wrote lpv_775693823_ambientcube.exr (156x70x1).
+Wrote lpv_775693823_dlshd.exr (156x70x1).
+Exiting (code 0)
+0....1....2....3....4....5....6....7....8....9....] Done (9.37 seconds)
+ProcessReceivedLightingPackets [0....1....2....3....4....5....6....7....8....9....] Done (1.47 seconds)
+DilateToGutters [0....1....2....3....4....5....6....7....8....9....] Done (0.01 seconds)
+Writing c:\program files (x86)\steam\steamapps\common\counter-strike global offensive\game\csgo_addons\am_dahdust_cs2\_vrad3\lpv_atlas_ambientcube.exr (576x308x1)...Done
+Writing c:\program files (x86)\steam\steamapps\common\counter-strike global offensive\game\csgo_addons\am_dahdust_cs2\_vrad3\lpv_atlas_dlshd.exr (576x44x1)...Could not determine full file path for sky texture materials/editor/toolscene_lighting_sky_dust.vmat
++- csgo_addons\am_dahdust_cs2\maps\am_dahdust_cs2\lightmaps\env_light_probe_volume_atlas.vtex
+Read 1 Input(s): 1ms
+Generated Mips and Output: 0ms
+In memory 148kb -> on disk 66kb (44%)
+Compressing 36x44x96 texture to BC6H (Q=3): 126ms + 2ms
++- csgo_addons\am_dahdust_cs2\maps\am_dahdust_cs2\lightmaps\env_light_probe_volume_atlas_dlshd.vtex
+Read 1 Input(s): 0ms
+Generated Mips and Output: 0ms
+Compressing 36x44x16 texture to BC7 (Q=3): 44ms + 0ms
+Fixing Seams
+Weld Unique Vertices [0....1....2....3....4....5....6....7....8....9....] Done (0.00 seconds)
+Build Adjacency [] Done (0.00 seconds)
+Edge Equations [] Done (0.00 seconds)
+Solving Equations [ direct_light_shadows irradiance directional_irradiance ] (0.07 seconds)
+Repack charts for optimal block compression[] Done (0.04 seconds)
+Lightmapping Total Time : (11.54 seconds)
+Compressing Lightmaps...
++- csgo_addons\am_dahdust_cs2\maps\am_dahdust_cs2\lightmaps\direct_light_shadows.vtex
+Read 1 Input(s): 2ms
+Generated Mips and Output: 6ms
+In memory 512kb -> on disk 6kb (1%)
+Compressing 1024x1024x1 texture to ATI1N (Q=3): 10ms + 2ms
++- csgo_addons\am_dahdust_cs2\maps\am_dahdust_cs2\lightmaps\irradiance.vtex
+CResourceCompilerTexture::CompileResourceInternal(652): Using hue-shift fixup for file "c:/program files (x86)/steam/steamapps/common/counter-strike global offensive/content/csgo_addons/am_dahdust_cs2/maps/am_dahdust_cs2/lightmaps/irradiance.vtex"
+Read 1 Input(s): 3ms
+Generated Mips and Output: 7ms
+In memory 1024kb -> on disk 698kb (68%)
+Compressing 1024x1024x1 texture to BC6H (Q=3): 391ms + 35ms
++- csgo_addons\am_dahdust_cs2\maps\am_dahdust_cs2\lightmaps\debug_chart_color.vtex
+Read 1 Input(s): 3ms
+Generated Mips and Output: 6ms
+In memory 512kb -> on disk 5kb (0%)
+Compressing 1024x1024x1 texture to DXT1 (Q=3): 45ms + 1ms
++- csgo_addons\am_dahdust_cs2\maps\am_dahdust_cs2\lightmaps\directional_irradiance.vtex
+Read 1 Input(s): 3ms
+Generated Mips and Output: 11ms
+In memory 512kb -> on disk 224kb (43%)
+Compressing 1024x1024x1 texture to DXT1 (Q=3): 64ms + 23ms
+0 / 294 (00%) of triangles are at least 240.000000 units away from lightmap resolution volumes
+LIGHTMAP QUERY SIMPLIFY: indices 882->858
+LIGHTMAP QUERY MEM: verts 432->432, indices 882->858 (0mb -> 0mb)
+Added lightmap query data to VPK: maps\am_dahdust_cs2\lightmaps\lightmap_query_data.kv3
+Vertex Data Uncompressed: 6912 bytes
+Index Data Uncompressed: 3432 bytes
+Baked Lighting Total Time : (0 hrs 0 mins 12 seconds)
+Splitting geometry using visibility...[] Done (0.01 seconds)
+Building render clusters... 2 meshes, 38 triangles... 1 clusters (0.00 seconds)
+Splitting geometry using visibility...[] Done (0.00 seconds)
+Building render clusters... 0 meshes, 0 triangles... 1 clusters (0.00 seconds)
+Created 0+0 overlay sceneobjects for 0 meshes in 0 groups, 0 materials
++- csgo_addons\am_dahdust_cs2\maps\am_dahdust_cs2\worldnodes\node000_world_lr0_agg0_3_dev_measuregeneric01.vmdl
++- csgo_addons\am_dahdust_cs2\maps\am_dahdust_cs2\worldnodes\node000_world_lr0_agg1_20_reflectivity_30.vmdl
+Mesh Memory Stats
+__________ Aggregates __________
+| agg | frag | uniq | inst | vertex | index | material
+| 1 | 3 | 3 | 0 | 312 ( 8.74 KB) | 624 ( 1.25 KB) | materials/dev/dev_measuregeneric01.vmat
+| 1 | 20 | 20 | 0 | 144 ( 4.03 KB) | 258 ( 516 bytes) | materials/dev/reflectivity_30.vmat
+__________ SceneObjects __________
+| obj | vertex | index | material
++- csgo_addons\am_dahdust_cs2\maps\am_dahdust_cs2\worldnodes\node000.vwnod
+Empty Lightmaps=0
++- csgo_addons\am_dahdust_cs2\maps\am_dahdust_cs2\entities\default_ents.vents
++- csgo_addons\am_dahdust_cs2\maps\am_dahdust_cs2\world.vwrld
++- csgo_addons\am_dahdust_cs2\maps\am_dahdust_cs2\worldnodes\node000.vrman
+
+
+... Building 'phys'
++- csgo_addons\am_dahdust_cs2\maps\am_dahdust_cs2\world_physics.vmdl
++- csgo_addons\am_dahdust_cs2\maps\am_dahdust_cs2\world_physics.vrman
+
+
+... Building 'vis'
+
+
+... Building 'nav'
+>>NAVGEN: pass 1/1: orig tris 280
+>>NAVGEN: -- Start --
+>>NAVGEN: stage 01 / 32: ValidateVertices took 0.000 sec, produced 280 polys
+>>NAVGEN: stage 02 / 32: WeldVertices took 0.000 sec, produced 280 polys
+>>NAVGEN: stage 03 / 32: RemoveDegens took 0.000 sec, produced 280 polys
+>>NAVGEN: stage 04 / 32: TransformRecastNonZup took 0.000 sec, produced 280 polys
+>>NAVGEN: stage 05 / 32: Recast took 0.144 sec, produced 228 polys
+>>NAVGEN: stage 06 / 32: UnTransformRecastNonZup took 0.000 sec, produced 228 polys
+>>NAVGEN: stage 07 / 32: WeldVertices took 0.000 sec, produced 228 polys
+>>NAVGEN: stage 08 / 32: RemoveDegens took 0.000 sec, produced 228 polys
+>>NAVGEN: stage 09 / 32: MatchPolysToGround, disabled
+>>NAVGEN: stage 10 / 32: SplitPolysByMarkup took 0.000 sec, produced 228 polys
+>>NAVGEN: stage 11 / 32: RemovePolysMarkedNoNav took 0.000 sec, produced 228 polys
+>>NAVGEN: stage 12 / 32: RemoveStrayVerticalPolys took 0.000 sec, produced 228 polys
+>>NAVGEN: stage 13 / 32: WeldVertices took 0.000 sec, produced 228 polys
+>>NAVGEN: stage 14 / 32: RemoveDegens took 0.000 sec, produced 228 polys
+>>NAVGEN: stage 15 / 32: MergePolys took 0.042 sec, produced 19 polys
+>>NAVGEN: stage 16 / 32: LimitMaxPolyEdges took 0.000 sec, produced 19 polys
+>>NAVGEN: stage 17 / 32: LimitMaxPolyEdgeLen took 0.000 sec, produced 42 polys
+>>NAVGEN: stage 18 / 32: RemoveStrayVerticalPolys took 0.000 sec, produced 42 polys
+>>NAVGEN: stage 19 / 32: WeldVertices took 0.000 sec, produced 42 polys
+>>NAVGEN: stage 20 / 32: RemoveDegens took 0.000 sec, produced 42 polys
+>>NAVGEN: stage 21 / 32: SplitPolysByMarkup took 0.000 sec, produced 42 polys
+>>NAVGEN: stage 22 / 32: WeldVertices took 0.000 sec, produced 42 polys
+>>NAVGEN: stage 23 / 32: RemoveDegens took 0.000 sec, produced 42 polys
+>>NAVGEN: stage 24 / 32: ClipPolysToHullClearance took 0.000 sec, produced 42 polys
+>>NAVGEN: stage 25 / 32: GenerateConnections took 0.000 sec, produced 42 polys
+>>NAVGEN: stage 26 / 32: SplitBottleneckPolys took 0.000 sec, produced 42 polys
+>>NAVGEN: stage 27 / 32: SplitPolysWithMultipleConnections took 0.000 sec, produced 42 polys
+>>NAVGEN: stage 28 / 32: SplitBoundaryPolysWithConnections, disabled
+>>NAVGEN: stage 29 / 32: AddJumps took 0.001 sec, produced 42 polys
+>>NAVGEN: stage 30 / 32: RemoveSmallAreasOnEdge took 0.000 sec, produced 42 polys
+>>NAVGEN: stage 31 / 32: LadderConnect took 0.000 sec, produced 42 polys
+>>NAVGEN: stage 32 / 32: IslandRemoval, disabled
+>>NAVGEN: -- End --
+>>NAVGEN: -- Start --
+>>NAVGEN: stage 01 / 01: IslandRemoval took 0.000 sec, produced 42 polys
+>>NAVGEN: -- End --
+NavGeometryManager -> Computing Vertex Attributes...
+NavGeometryManager -> Computing Vertex Attributes - done
+CSGO Compute AI Data
+-------------------------------
+CSGO: Compute Early Occupy Times [0....1....2....3....4....5....6....7....8....9....] Done (0.01 seconds)
+CSGO: Compute Hiding spots [0....1....2....3....4....5....6....7....8....9....] Done (0.00 seconds)
+CSGO: Compute Encounter spots [0....1....2....3....4....5....6....7....8....9....] Done (0.01 seconds)
+CSGO: Compute Approach areas [0....1....2....3....4....5....6....7....8....9....] Done (0.01 seconds)
+Size of nav file 'maps/am_dahdust_cs2.nav' is 8943 bytes.
+
+
+... Building 'sareverb'
+(Steam Audio) Generating probes on uniform grid for baking...
+Generated 73 probes with 6.00 spacing and 1.50 height.
+Baking reverb for 73 probes...
+[0....1....2....3....4....5....6....7....8....9....]
+BakeReverb: Saved 354388 bytes.
+Size of baked reverb file 'maps\am_dahdust_cs2.sareverb' is 355600 bytes.
+
+
+... Building 'sapaths'
+(Steam Audio) Generating probes on uniform grid for baking...
+Generated 73 probes with 6.00 spacing and 1.50 height.
+Baking paths for 73 probes...
+[0....1....2....3....4....5....6....7....8....9...]
+[0....1....2....3....4....5....6....]
+[0....1....2....3....4....5....6....7....8....9....]
+[0....1....2....3....4....5....6....7....8....9....BakePathData: Saved 34456 bytes.
+Size of baked paths file 'maps\am_dahdust_cs2.sapaths' is 34488 bytes.
++- csgo_addons\am_dahdust_cs2\maps\am_dahdust_cs2\world.vrman
+--> Map build finished.
+Pack am_dahdust_cs2.vpk (C:\Users\Alex\AppData\Local\Temp\valve\hammermapbuild\game\csgo_addons\am_dahdust_cs2\maps\am_dahdust_cs2.vpk):
+Hashing metadata...Writing...Hashing embedded chunk (1894250 bytes)
+Attempting to load signing keys.
+Couldn't load public key c:\program files (x86)\steam\steamapps\common\counter-strike global offensive\src\devtools\bin\certificates\game\csgo/vpk.publickey.vdf, will not sign C:\Users\Alex\AppData\Local\Temp\valve\hammermapbuild\game\csgo_addons\am_dahdust_cs2\maps\am_dahdust_cs2.vpk.
+Not signing; keys not set.
+VPK: Wrote file C:\Users\Alex\AppData\Local\Temp\valve\hammermapbuild\game\csgo_addons\am_dahdust_cs2\maps\am_dahdust_cs2.vpk Length 1895892 MD5 6ede0e787bfc3ae136fd04e3dfdf5214 
+VPK: Check file C:\Users\Alex\AppData\Local\Temp\valve\hammermapbuild\game\csgo_addons\am_dahdust_cs2\maps\am_dahdust_cs2.vpk Length 1895892 MD5 6ede0e787bfc3ae136fd04e3dfdf5214 
+Done.
+0/ 1 (elapsed 23.508): c:\program files (x86)\steam\steamapps\common\counter-strike global offensive\content\csgo_addons\am_dahdust_cs2\maps\am_dahdust_cs2.vmap
+Compile of 1 file(s) matching nonrecursive specification "c:/program files (x86)/steam/steamapps/common/counter-strike global offensive/content/csgo_addons/am_dahdust_cs2/maps/am_dahdust_cs2.vmap" took 23.508 seconds
+
+-----------------------------------------------------------------
+OK: 22 compiled, 0 failed, 0 skipped, 0m:24s
+-----------------------------------------------------------------
